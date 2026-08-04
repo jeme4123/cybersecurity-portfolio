@@ -94,10 +94,6 @@ http://localhost:5173/
 
 ## Live Website Address
 
-The live website has not been deployed yet.
-
-Once deployed, the address will be added here:
-
 ```text
 https://cybersecurity-portfolio-peach.vercel.app/#projects
 ```
