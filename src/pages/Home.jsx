@@ -80,7 +80,7 @@ const projects = [
     description:
       "Designed defense-in-depth recommendations for power-grid environments using segmentation, SIEM, incident response, NIST, and NERC CIP principles.",
     tags: ["SCADA", "NIST", "Risk"],
-    path: null,
+    path: "/projects/critical-infrastructure",
   },
 ];
 

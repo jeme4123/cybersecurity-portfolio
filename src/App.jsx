@@ -1,31 +1,43 @@
 import { Route, Routes } from "react-router";
-import Home from "./pages/Home";
-import LinuxMemoryProject from "./pages/LinuxMemoryProject";
-import WindowsForensicsProject from "./pages/WindowsForensicsProject";
-import NetworkTrafficProject from "./pages/NetworkTrafficProject";
+
+import Home from "./pages/Home.jsx";
+import LinuxMemoryProject from "./pages/LinuxMemoryProject.jsx";
+import WindowsForensicsProject from "./pages/WindowsForensicsProject.jsx";
+import NetworkTrafficProject from "./pages/NetworkTrafficProject.jsx";
+import CriticalInfrastructureProject from "./pages/CriticalInfrastructureProject.jsx";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
+    <>
+      <ScrollToTop />
 
-      <Route
-        path="/projects/linux-memory"
-        element={<LinuxMemoryProject />}
-      />
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-      <Route
-        path="/projects/windows-forensics"
-        element={<WindowsForensicsProject />}
-      />
+        <Route
+          path="/projects/linux-memory"
+          element={<LinuxMemoryProject />}
+        />
 
-      <Route
-        path="/projects/network-traffic"
-        element={<NetworkTrafficProject />}
-      />
+        <Route
+          path="/projects/windows-forensics"
+          element={<WindowsForensicsProject />}
+        />
 
-      <Route path="*" element={<Home />} />
-    </Routes>
+        <Route
+          path="/projects/network-traffic"
+          element={<NetworkTrafficProject />}
+        />
+
+        <Route
+          path="/projects/critical-infrastructure"
+          element={<CriticalInfrastructureProject />}
+        />
+
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
