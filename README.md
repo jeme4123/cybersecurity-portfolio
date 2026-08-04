@@ -99,5 +99,5 @@ The live website has not been deployed yet.
 Once deployed, the address will be added here:
 
 ```text
-Coming soon
+https://cybersecurity-portfolio-peach.vercel.app/#projects
 ```
