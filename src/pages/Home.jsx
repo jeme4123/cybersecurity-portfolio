@@ -147,7 +147,7 @@ function Home() {
 
             <div className="quickStats">
               <div>
-                <strong>10+</strong>
+                <strong>9+</strong>
                 <span>Years in IT</span>
               </div>
 
