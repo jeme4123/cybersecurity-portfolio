@@ -159,7 +159,7 @@ function Home() {
 
                 <a
                   className="secondaryButton"
-                  href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME/"
+                  href="https://www.linkedin.com/in/jeremy-c-345732107/"
                   target="_blank"
                   rel="noreferrer"
                 >
