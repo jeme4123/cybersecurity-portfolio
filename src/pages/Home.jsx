@@ -98,6 +98,14 @@ function Home() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#certification">Security+</a>
+
+            <a
+              href="Jeremy-Colbert-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+                Resume
+            </a>
           </div>
 
           <a className="navButton" href="#contact">
@@ -135,14 +143,30 @@ function Home() {
                 <span aria-hidden="true">→</span>
               </a>
 
-              <a
-                className="secondaryButton"
-                href="https://github.com/jeme4123"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View GitHub
-              </a>
+            <div className="contactButtons">
+              <a className="primaryButton" href="mailto:jeme41@gmail.com">
+                  Send an Email
+                  <span aria-hidden="true">→</span>
+                </a>
+
+                <a
+                  className="secondaryButton"
+                  href="/Jeremy-Colbert-Resume.pdf"
+                  download="Jeremy-Colbert-Resume.pdf"
+                >
+             
+                 Download Resume
+                </a>
+
+                <a
+                  className="secondaryButton"
+                  href="https://github.com/jeme4123"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                 
+                 GitHub Profile
+                </a>
             </div>
 
             <div className="quickStats">
@@ -159,6 +183,7 @@ function Home() {
               <div>
                 <strong>Security+</strong>
                 <span>Currently studying</span>
+              </div>
               </div>
             </div>
           </div>
