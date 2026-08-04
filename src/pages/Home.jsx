@@ -98,6 +98,14 @@ function Home() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#certification">Security+</a>
+            
+            <a
+              href="https://www.linkedin.com/in/jeremy-c-345732107/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
 
             <a
               href="Jeremy-Colbert-Resume.pdf"
@@ -147,6 +155,15 @@ function Home() {
               <a className="primaryButton" href="mailto:jeme41@gmail.com">
                   Send an Email
                   <span aria-hidden="true">→</span>
+                </a>
+
+                <a
+                  className="secondaryButton"
+                  href="https://www.linkedin.com/in/YOUR-LINKEDIN-NAME/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn Profile
                 </a>
 
                 <a
