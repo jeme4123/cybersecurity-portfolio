@@ -1001,3 +1001,60 @@ main {
     padding: 80px 0;
   }
 }
+
+.commandList {
+  display: grid;
+  gap: 18px;
+}
+
+.commandCard {
+  overflow: hidden;
+  padding: 26px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.commandCard h3 {
+  margin-top: 0;
+  color: var(--heading);
+}
+
+.commandCard pre {
+  overflow-x: auto;
+  margin: 18px 0;
+  padding: 18px;
+  border: 1px solid rgba(45, 212, 191, 0.14);
+  border-radius: 9px;
+  background: #050d18;
+}
+
+.commandCard code {
+  color: var(--primary-bright);
+  font-family: Consolas, Monaco, monospace;
+  font-size: 0.78rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.findingNotice {
+  margin-bottom: 24px;
+  padding: 18px;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  border-radius: 10px;
+  background: rgba(251, 191, 36, 0.06);
+  color: #fcd34d;
+  line-height: 1.6;
+}
+
+.screenshotPlaceholder {
+  display: grid;
+  min-height: 260px;
+  margin: 28px 0;
+  border: 1px dashed rgba(45, 212, 191, 0.35);
+  border-radius: 14px;
+  place-items: center;
+  background: rgba(45, 212, 191, 0.03);
+  color: var(--muted);
+  text-align: center;
+}

@@ -64,7 +64,7 @@ const projects = [
     description:
       "Used Volatility to investigate running processes, network connections, privileges, and suspicious artifacts inside a Windows memory image.",
     tags: ["Volatility", "Forensics", "Windows"],
-    path: null,
+    path: "/projects/windows-forensics",
   },
   {
     number: "03",
