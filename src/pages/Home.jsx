@@ -72,7 +72,7 @@ const projects = [
     description:
       "Examined packet captures and network sessions to identify protocols, endpoints, unusual communication, and possible indicators of compromise.",
     tags: ["Wireshark", "PCAP", "Networking"],
-    path: null,
+    path: "/projects/network-traffic",
   },
   {
     number: "04",
